@@ -1,0 +1,49 @@
+{
+  "name": "pi-goal",
+  "version": "0.1.0",
+  "description": "Durable goals for Pi — keeps the agent working toward an objective across turns (à la Codex /goal).",
+  "license": "MIT",
+  "author": "Sarthak Verma <sarthakvdev@gmail.com>",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-agent",
+    "coding-agent",
+    "goal",
+    "codex-goal",
+    "autonomous"
+  ],
+  "homepage": "https://github.com/sarthak/pi-goal#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthak/pi-goal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarthak/pi-goal/issues"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "^0.74.0",
+    "typescript": "^5.6.0"
+  }
+}
