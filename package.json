@@ -1,10 +1,13 @@
 {
-  "name": "pi-goal",
+  "name": "@sarthakxv/pi-goal",
   "version": "0.1.0",
   "description": "Durable goals for Pi — keeps the agent working toward an objective across turns.",
   "license": "MIT",
   "author": "Sarthak Verma <sarthakvdev@gmail.com>",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "pi-package",
     "pi",
@@ -13,13 +16,13 @@
     "goal",
     "autonomous"
   ],
-  "homepage": "https://github.com/sarthak/pi-goal#readme",
+  "homepage": "https://github.com/sarthakxv/pi-goal#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarthak/pi-goal.git"
+    "url": "git+https://github.com/sarthakxv/pi-goal.git"
   },
   "bugs": {
-    "url": "https://github.com/sarthak/pi-goal/issues"
+    "url": "https://github.com/sarthakxv/pi-goal/issues"
   },
   "files": [
     "index.ts",

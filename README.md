@@ -20,8 +20,8 @@ pi install ~/pi-goal
 pi -e ~/pi-goal/index.ts
 
 # once published / pushed:
-pi install npm:pi-goal                       # after `npm publish`
-pi install git:github.com/sarthak/pi-goal    # after you add a remote + push
+pi install npm:@sarthakxv/pi-goal            # after `npm publish`
+pi install git:github.com/sarthakxv/pi-goal  # after a push to GitHub
 ```
 
 Then start Pi and run `/goal`.
