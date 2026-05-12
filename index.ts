@@ -254,7 +254,7 @@ export default function piGoalExtension(pi: ExtensionAPI): void {
 		}
 
 		// Anything else → the objective text.
-		if (state && state.status !== "done") {
+		if (state && state.status !== "done" && ctx.hasUI) {
 			const ok = await ctx.ui.confirm("Replace the current goal?", `Current: ${state.objective}\n\nNew: ${arg}`);
 			if (!ok) return;
 		}

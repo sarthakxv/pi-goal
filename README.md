@@ -13,17 +13,15 @@ Pi plans a few checkpoints, does the first one, reports a one-line progress note
 ## Install
 
 ```bash
-# from npm (once published)
-pi install npm:pi-goal
-
-# from git
-pi install git:github.com/sarthak/pi-goal
-
-# from a local checkout (great for hacking on it)
+# from a local checkout (works today; great for hacking on it)
 pi install ~/pi-goal
 
 # or just try it for one run, no install:
 pi -e ~/pi-goal/index.ts
+
+# once published / pushed:
+pi install npm:pi-goal                       # after `npm publish`
+pi install git:github.com/sarthak/pi-goal    # after you add a remote + push
 ```
 
 Then start Pi and run `/goal`.
