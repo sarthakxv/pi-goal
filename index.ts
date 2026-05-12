@@ -2,8 +2,7 @@
  * pi-goal — durable goals for Pi
  *
  * Give Pi a persistent objective and it keeps working toward it across turns
- * instead of stopping after one. Modeled on Codex's `/goal` and Claude Code's
- * goal mode.
+ * instead of stopping after one.
  *
  *   /goal <objective>   Set a goal and start working toward it
  *   /goal               Show the current goal and progress

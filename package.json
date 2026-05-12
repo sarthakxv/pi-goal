@@ -1,7 +1,7 @@
 {
   "name": "pi-goal",
   "version": "0.1.0",
-  "description": "Durable goals for Pi — keeps the agent working toward an objective across turns (à la Codex /goal).",
+  "description": "Durable goals for Pi — keeps the agent working toward an objective across turns.",
   "license": "MIT",
   "author": "Sarthak Verma <sarthakvdev@gmail.com>",
   "type": "module",
@@ -11,7 +11,6 @@
     "pi-agent",
     "coding-agent",
     "goal",
-    "codex-goal",
     "autonomous"
   ],
   "homepage": "https://github.com/sarthak/pi-goal#readme",

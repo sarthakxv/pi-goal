@@ -1,6 +1,6 @@
 # pi-goal
 
-**Durable goals for [Pi](https://pi.dev).** Give Pi a persistent objective and it keeps working toward it across turns — running checkpoint after checkpoint — instead of stopping after one. It's the [Codex `/goal`](https://developers.openai.com/codex/use-cases/follow-goals) / Claude Code goal-mode idea, ported to Pi as a single extension.
+**Durable goals for [Pi](https://pi.dev).** Give Pi a persistent objective and it keeps working toward it across turns — running checkpoint after checkpoint — instead of stopping after one.
 
 ```
 /goal Migrate the build from webpack to vite and keep `npm test` green
